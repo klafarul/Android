@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Duckk</string>
+    <string name="logo">Duckkk Logo</string>
+
+    <string-array name="options">
+        <item>Ducks</item>
+        <item>Cats</item>
+        <item>Dogs</item>
+    </string-array>
+</resources>
