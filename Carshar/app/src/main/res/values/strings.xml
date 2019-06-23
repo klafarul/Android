@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Carshar</string>
+    <string name="Deli">Делимобиль</string>
+    <string name="Car5">Car5</string>
+    <string name="YouDrive">YouDrive</string>
+    <string name="Karenda">Каренда</string>
+    <string name="ShowCars">Отобразить</string>
+    <string name="settings">Settings</string>
+    <string name="map">Map</string>
+</resources>

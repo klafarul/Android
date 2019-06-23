@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="companies">
+        <item>Делимобиль</item>
+        <item>Car5</item>
+        <item>YouDrive</item>
+        <item>RentMee</item>
+        <item>МатрешCar</item>
+        <item>CAR4YOY</item>
+        <item>Anytime</item>
+        <item>Berimobil</item>
+    </string-array>
+</resources>

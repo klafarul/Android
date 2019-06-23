@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="15dp">
+
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/Deli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Deli" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/Car5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Car5" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/YouDrive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/YouDrive" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/Karenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Karenda" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/ShowCars"
+        android:onClick="showCars"/>
+    <TextView
+        android:id="@+id/selectedCars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:textSize="20dp"
+        android:hint="Hello"/>
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"/>
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/seek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Seek progress"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:id="@+id/address"
+        android:hint="Enter address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        />
+    <Button
+        android:id="@+id/sending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="send"
+        android:text="Отправить"/>
+
+
+</LinearLayout>
